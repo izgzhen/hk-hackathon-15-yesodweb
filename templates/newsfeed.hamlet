@@ -1,0 +1,9 @@
+<h2>News Feed
+<div>
+    <ol>
+        $forall news@(News url timestamp title) <- newses
+                <li>
+                     <a href=#{newsQuery news renderer}>#{title}
+                     <small>published in #{show timestamp}
+
+

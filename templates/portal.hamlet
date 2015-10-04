@@ -1,0 +1,21 @@
+<h2>Portal
+<div>
+  <h3>Personal Information
+  <p>Email: #{userEmail pInfo}
+  <form method=post enctype=#{enctype}>
+    ^{widget}
+    <button>Submit
+  <hr>
+  <section>
+    <h4>Visited
+    <p>
+        <h4> Courses
+        <ol>
+            $forall c <- scs
+                <li>^{c}
+        <h4> News
+        <ol>
+            $forall n <- sns
+                <li>^{n}
+  <p>
+    <a href=@{AuthR LogoutR}>Logout

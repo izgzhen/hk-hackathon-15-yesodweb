@@ -1,0 +1,6 @@
+<h2>Courses
+<div>
+    <ol>
+        $forall c <- cs
+          <li>
+            <a href=#{crsQuery c renderer}>#{courseTitle c}

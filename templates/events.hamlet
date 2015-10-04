@@ -1,0 +1,6 @@
+<h2>Events
+<div>
+    <ol>
+        $forall e <- es
+          <li>
+            <a href=#{url e}>#{name e}

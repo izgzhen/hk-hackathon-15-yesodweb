@@ -1,0 +1,21 @@
+<h2>Welcome to Code@HK
+<div class="row">
+  <div class="col-sm-4">
+    <h3> File Center
+    <p> Upload your files
+    <p> <a href=@{ImagesR} class="btn btn-lg btn-outline"> Upload something
+  <div class="col-sm-4">
+        <a href=@{NewsFeedR}>News Feed
+  <div class="col-sm-4">
+        <a href=@{CoursesR}>Courses
+  <div class="col-sm-4">
+        <a href=@{EventsR}>Events
+
+<div>
+  $maybe _ <- maid
+    <p>
+      <button type="button" class="btn btn-default" href=@{PortalR}>Portal
+      <button type="button" class="btn btn-default" href=@{AuthR LogoutR}>Logout
+  $nothing
+    <p>
+      <button type="button" class="btn btn-default" href=@{AuthR LoginR}>Go to the login page

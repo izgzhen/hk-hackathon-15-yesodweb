@@ -1,0 +1,20 @@
+News
+    link        Text
+    timestamp   UTCTime
+    title       Text
+    UniqueNewsLink link
+    deriving    Show Eq
+Course
+    link        Text
+    title       Text
+    UniqueCourseLink link
+    deriving    Show Eq
+User
+    gid         Text
+    email       Text
+    hobbit      Text Maybe
+    website     Text Maybe
+    starNews    [NewsId]
+    starCourse  [CourseId]
+    UniqueGid   gid
+    deriving    Show

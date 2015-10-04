@@ -1,0 +1,14 @@
+/static             StaticR     Static      appStatic
+/auth               AuthR       Auth        getAuth
+
+/favicon.ico        FaviconR    GET
+/robots.txt         RobotsR     GET
+
+/                   HomeR       GET
+/image/#String      ImageR      DELETE
+/images             ImagesR     GET POST
+/portal             PortalR     GET POST
+/newsfeed    	    NewsFeedR 	GET
+/courses 	        CoursesR 	GET
+/events 	        EventsR 	GET
+/redirect           RedirectR   GET
